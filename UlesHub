@@ -432,7 +432,7 @@ function Library:create(options)
 	end
 
 	options = self:set_defaults({
-		Name = "Ules",
+		Name = "Ules Hub",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
 		Link = "https://github.com/deeeity/mercury-lib"
@@ -919,7 +919,7 @@ function Library:create(options)
 
 	rawset(mt, "creditsContainer", creditsTab.container)
 
-	creditsTab:credit{Name = "Ules", Description = "Script owner", Discord = "8.x0"}
+	creditsTab:credit{Name = "Ules", Description = "Script owner", Discord = "8.x0", Youtube = "https://www.youtube.com/@UlesScripter"}
 	creditsTab:credit{Name = "Discord Server", Description = "This our discord server", Discord = "https://discord.com/invite/UCDMJqFAke"}
 
 	return mt
